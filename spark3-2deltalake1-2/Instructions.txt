@@ -1,0 +1,19 @@
+#Run this command to build the image from the Dockerfile image file
+docker build . -f Dockerfile -t spark32delta12
+
+#Take the image once it is built and convert it into a running container
+docker run --tty --volume ${PWD}:/usr/local/bin --hostname sparkcluster --workdir /usr/local/bin -p 4041:4041 -d spark32delta12:latest
+
+#Grab the docker container running ID
+docker ps
+
+#Insert the running ID of the container in <docker container id> 
+docker exec -it <docker container id> "bash"
+
+#The following files are demo scripts in PySpark for a deltalake example
+#Use the csvexmaple.csv file to amend as you feel
+delta-lake-test.py
+delta-lake-test-csv.py --> csvexample.csv
+
+#To navigate to the Spark UI
+http://localhost:4041
