@@ -1,0 +1,11 @@
+﻿Id,Username,Email,Firstname,Lastname,Department,Teamname,Role,Manager
+1,jjones,jessica.jones@email.com,Jessica,Jones,IT,DevOps,Engineer,Matthew Murdoch
+2,drand,danny.rand@email.com,Danny,Rand,IT,DevOps,Engineer,Matthew Murdoch
+3,lcage,luke.cage@email.com,Luke,Cage,IT,DevOps,Engineer,Matthew Murdoch
+4,fcastle,frank.castle@email.com,Frank,Castle,IT,DevOps,Engineer,Matthew Murdoch
+5,todinson,thor.odinson@email.com,Thor,Odinson,IT,Development,Developer,Peter Parker
+6,srogers,steve.rogers@email.com,Steve,Rogers,IT,Development,Developer,Peter Parker
+7,pquill,peter.quill@email.com,Peter,Quill,IT,Development,Developer,Peter Parker
+8,bbanner,bruce.banner@email.com,Bruce,Banner,IT,Development,Developer,Peter Parker
+9,mmurdoch,matthew.murdoch@email.com,Matthew,Murdoch,IT,DevOps,Manager,Tony Stark
+10,pparker,peter.parker@email.com,Peter,Parker,IT,Development,Manager,Tony Stark
